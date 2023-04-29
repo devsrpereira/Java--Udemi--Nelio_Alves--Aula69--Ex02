@@ -19,12 +19,12 @@ public class Program {
         System.out.printf("Tax: ");
         funcionario.tax = s.nextDouble();
 
-        System.out.printf("%nEmployee: %s, $ %.2f%n", funcionario.name, funcionario.netSalary());
+        System.out.printf("%nEmployee: %s%n", funcionario);
 
         System.out.printf("%nWhich percentage to increase salary? ");
         funcionario.increaseSalary(s.nextDouble());
 
-        System.out.printf("%nUpdate data: %s, $ %.2f%n", funcionario.name, funcionario.netSalary());
+        System.out.printf("%nUpdate data: %s%n", funcionario);
 
 
     }
